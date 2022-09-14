@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -9,6 +10,7 @@ body {
   background-size: cover;
   background-position: left top;
   font-family: "Zilla Slab", serif;
+  position: relative;
 }
 
 .box-container {
@@ -64,8 +66,7 @@ body {
 #result {
  position: absolute;
   top: 50%; 
-  left: 50%; 
-  
+  left: 50%;  
   transform: translate(-50%, -50%);
   height: 250px;
   width: 400px;
@@ -187,6 +188,18 @@ button {
   .box-container {
     padding: 0 20px;
     width: 100%;
+  }
+  .card {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #histories{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    
   }
   .card {
     flex-direction: column;
