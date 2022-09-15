@@ -184,6 +184,17 @@ button {
 }
 
 
+.blog-section{
+  font-weight: 600;
+  color: azure;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 700px) {
   .box-container {
     padding: 0 20px;
@@ -192,6 +203,7 @@ button {
   .card {
     flex-direction: column;
   }
+  
 }
 @media only screen and (min-width: 1024px) {
   #histories{
@@ -204,4 +216,5 @@ button {
   .card {
     flex-direction: column;
   }
+  
 }
